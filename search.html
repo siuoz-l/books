@@ -7,7 +7,7 @@
               var input, filter, ul, li, a, i;
               input = document.getElementById("mySearch");
               filter = input.value.toUpperCase();
-              ul = document.getElementById("myMenu");
+              ul = document.getElementById("books");
               li = ul.getElementsByTagName("li");
             
               for (i = 0; i < li.length; i++) {
@@ -103,8 +103,8 @@
         <a href="/books/"><button id="home">Home</button></a> <a href="/books/search.html"><button id="search">Search</button></a>
         <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search for books..." title="Search">
 
-        <ul id="myMenu">
-        <li><a href="#">HTML</a></li>
+        <ul id="books">
+        <li><a href="/books/Sinus Fungus.html/">Sinus Fungus</a></li>
         </ul>
     </body>
 </html>
