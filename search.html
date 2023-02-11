@@ -20,6 +20,84 @@
               }
             }
             </script>
+            <style>
+                html {
+                    height: 1000%;
+                }
+        
+                #head {
+                    font-family:cursive;
+                    font-size:34px;
+                }
+        
+                #main {
+                    background-image: linear-gradient(to bottom right, rgb(0, 255, 255), rgb(0, 255, 85), rgb(208, 0, 255), rgb(0, 42, 255), rgb(0, 42, 255), rgb(0, 42, 255), rgb(0, 42, 255), rgb(0, 48, 255), rgb(0, 42, 255), rgb(0, 42, 255));
+                }
+        
+                body #home {
+                    background-color: yellowgreen;
+                    font-size:15px;
+                }
+        
+                body #search {
+                    background-color: yellowgreen;
+                    font-size:15px;
+                }
+        
+                body #home:hover {
+                    font-size:20px;
+                }
+        
+                body #search:hover {
+                    font-size:20px;
+                }
+        
+                hoverResult {
+                    background-color: white;
+                }
+         
+                #searchBar {
+                    color: black;
+                    width: fit-content;
+                    height: 34px;
+                    font-size: 34px;
+                }
+        
+                #searchButton {
+                    background-image: url("searchButton.png");
+                    width: 10px;
+                    height: 10px;
+                    text-align: center;
+                }
+        
+                #myInput {
+                    width: fit-content;
+                    font-size: 16px;
+                    border: 1px solid #ddd;
+                    margin-bottom: 12px;
+                }
+        
+                a{
+                    border: 1px solid rgba(0, 0, 0, 0);
+                    margin-top: -1px; /* Prevent double borders */
+                    background-color: #ff000000;
+                    padding: 12px;
+                    text-decoration: none;
+                    font-size: 18px;
+                    color: black;
+                    display: block;
+                    width: fit-content;
+                }
+        
+                li {
+                    list-style-type: none;
+                }
+        
+                li a:hover {
+                    color: black;
+                    background-color: rgba(0, 0, 0, 0.200);
+                }
+                </style>
     </head>
     <body>
         <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search for books..." title="Search">
