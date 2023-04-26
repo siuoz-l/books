@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
     <title>Siuozl Books</title>
+    <div>
+        <p id="userName"></p>
+        <script>
+            var userName = localStorage.getItem("Siuozl_ProfileNAME");
+                document.getElementById("userName").innerText = (userName);
+        </script>
+		<style>
+			#userName {
+				float: right;
+				font-family: fantasy;
+				font-size: x-small;
+			}
+		</style>
+    </div>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DSBNKRVEFF"></script>

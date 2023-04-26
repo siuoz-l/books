@@ -20,6 +20,20 @@
               }
             }
             </script>
+            <div>
+                <p id="userName"></p>
+                <script>
+                    var userName = localStorage.getItem("Siuozl_ProfileNAME");
+                        document.getElementById("userName").innerText = (userName);
+                </script>
+                <style>
+                    #userName {
+                        float: right;
+                        font-family: fantasy;
+                        font-size: x-small;
+                    }
+                </style>
+            </div>
             <style>
                 html {
                     height: 1000%;

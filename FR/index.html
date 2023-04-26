@@ -79,6 +79,20 @@
             background-color: rgba(0, 0, 0, 0.200);
         }
     </style>
+    <div>
+        <p id="userName"></p>
+        <script>
+            var userName = localStorage.getItem("Siuozl_ProfileNAME");
+                document.getElementById("userName").innerText = (userName);
+        </script>
+		<style>
+			#userName {
+				float: right;
+				font-family: fantasy;
+				font-size: x-small;
+			}
+		</style>
+    </div>
     <body id="main">
         <hoverResult>
             <br>
